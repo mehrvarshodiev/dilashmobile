@@ -154,3 +154,6 @@ html:not(.dark) .store-map-popup-close{color:#64748b}
 html:not(.dark) .store-map-caption{color:#64748b}
 html:not(.dark) .store-map-caption>a{color:#d83b12}
 @media(max-width:480px){.store-map-frame{height:270px;border-radius:15px}.store-map-caption{align-items:flex-start;flex-direction:column}.store-map-caption>a{padding-top:2px}}
+
+/* The no-key preview stays passive so wheel scrolling never gets captured by the embedded map. */
+.store-map-frame>iframe{pointer-events:none}
