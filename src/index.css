@@ -93,7 +93,7 @@ html:not(.dark) .card:hover{border-color:#ffc6b3}
 html:not(.dark) .text-orange-200{color:#d83b12!important}
 html:not(.dark) .text-orange-300{color:#d83b12!important}
 html:not(.dark) .bg-orange-300{background-color:#f04416!important}
-html:not(.dark) .hover\\:bg-orange-200:hover{background-color:#ffb39b!important}
+html:not(.dark) .hover\:bg-orange-200:hover{background-color:#ffb39b!important}
 
 
 /* Dark theme: premium charcoal surfaces with the store's orange-red signature */
