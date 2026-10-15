@@ -1,0 +1,1 @@
+import { createSlice } from '@reduxjs/toolkit'; import products from './data/db.json'; const slice=createSlice({name:'products',initialState:{items:products},reducers:{}}); export default slice.reducer;
