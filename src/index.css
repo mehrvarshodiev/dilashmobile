@@ -280,3 +280,6 @@ html:not(.dark) .catalog-search-wrap:focus-within .catalog-search-input{box-shad
 
 /* Ensure clear breathing room between search icon and placeholder text */
 .catalog-search-input{padding-left:3.5rem!important}
+
+.social-footer-link{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:1px solid rgba(251,146,60,.28);border-radius:14px;background:rgba(251,146,60,.08);color:#fdba74;transition:background .2s ease,border-color .2s ease,color .2s ease,transform .2s ease}
+.social-footer-link:hover{background:#fdba74;border-color:#fdba74;color:#18181b;transform:translateY(-2px)}
