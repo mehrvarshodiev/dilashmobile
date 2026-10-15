@@ -277,3 +277,6 @@ html:not(.dark) .catalog-search-input::placeholder{color:#8b95a3!important}
 html:not(.dark) .catalog-search-icon{color:#e54822}
 html:not(.dark) .catalog-search-wrap:focus-within .catalog-search-input{box-shadow:0 0 0 4px rgba(240,68,22,.1),0 10px 24px rgba(40,40,50,.07)}
 @media(max-width:640px){.catalog-search-input{min-height:50px;font-size:14px!important}}
+
+/* Ensure clear breathing room between search icon and placeholder text */
+.catalog-search-input{padding-left:3.5rem!important}
