@@ -94,3 +94,33 @@ html:not(.dark) .text-orange-200{color:#d83b12!important}
 html:not(.dark) .text-orange-300{color:#d83b12!important}
 html:not(.dark) .bg-orange-300{background-color:#f04416!important}
 html:not(.dark) .hover\\:bg-orange-200:hover{background-color:#ffb39b!important}
+
+
+/* Dark theme: premium charcoal surfaces with the store's orange-red signature */
+html.dark{color-scheme:dark;--brand-orange:#f04416;--brand-orange-soft:rgba(240,68,22,.12)}
+html.dark body{background:radial-gradient(ellipse at 50% -18%,rgba(240,68,22,.10) 0,transparent 42%),radial-gradient(ellipse at 100% 35%,rgba(229,43,8,.045) 0,transparent 35%),#09090b;color:#f4f4f5}
+html.dark header.sticky{background:rgba(9,9,11,.88)!important;border-color:rgba(240,68,22,.16)!important;box-shadow:0 8px 28px rgba(0,0,0,.22)}
+html.dark footer{background:linear-gradient(180deg,rgba(240,68,22,.035),rgba(0,0,0,.28))!important;border-color:rgba(240,68,22,.16)!important}
+html.dark .card{background:linear-gradient(145deg,rgba(31,25,24,.96),rgba(16,16,19,.98));border-color:rgba(240,68,22,.13);box-shadow:0 8px 26px rgba(0,0,0,.13)}
+html.dark .card:hover{border-color:rgba(240,68,22,.48);box-shadow:0 12px 32px rgba(240,68,22,.07)}
+html.dark .field{background:#111013;border-color:#3b2b27;color:#fff}
+html.dark .field::placeholder{color:#9b9290}
+html.dark .field:focus{border-color:#f04416;box-shadow:0 0 0 3px rgba(240,68,22,.17)}
+html.dark .theme-toggle{background:rgba(240,68,22,.07);border-color:rgba(240,68,22,.22);color:#ffd4c6}
+html.dark .theme-toggle:hover{background:rgba(240,68,22,.16);border-color:rgba(240,68,22,.58);color:#fff}
+html.dark .product-image{background:linear-gradient(145deg,#211a19,#111013)}
+html.dark .border-white\\/10{border-color:rgba(240,68,22,.17)}
+html.dark .border-white\\/15{border-color:rgba(240,68,22,.25)}
+html.dark .bg-white\\/5{background-color:rgba(240,68,22,.055)}
+html.dark .text-orange-200{color:#ff9a7d}
+html.dark .text-orange-300{color:#ff754f}
+html.dark .bg-orange-300{background-color:#f04416}
+html.dark .hover\\:bg-orange-200:hover{background-color:#ff6a40}
+html.dark .brand-mark{background:linear-gradient(145deg,rgba(240,68,22,.2),rgba(229,43,8,.08));border-color:rgba(240,68,22,.38);box-shadow:0 5px 18px rgba(240,68,22,.14)}
+html.dark .brand-wordmark small{color:#b2a5a0}
+html.dark .bg-gradient-to-br.from-\\[\\#172735\\].via-\\[\\#11151d\\].to-\\[\\#101014\\]{background:linear-gradient(135deg,#251916 0%,#171315 55%,#101014 100%)!important;border-color:rgba(240,68,22,.2)!important}
+html.dark .shadow-glow{box-shadow:0 20px 55px rgba(240,68,22,.09)}
+/* Align previously blue-tinted light-theme hero with the same warm brand palette */
+html:not(.dark) body{background:radial-gradient(ellipse at 50% -20%,rgba(240,68,22,.08) 0,transparent 48%),#f5f7fa}
+html:not(.dark) .bg-gradient-to-br.from-\\[\\#172735\\].via-\\[\\#11151d\\].to-\\[\\#101014\\]{background:linear-gradient(135deg,#fff0e9 0%,#f8f8fa 55%,#f1f2f5 100%)!important;border-color:#ffd9cc!important;box-shadow:0 20px 55px rgba(160,52,22,.09)}
+html:not(.dark) .border-orange-100\\/10{border-color:#ffd9cc!important}
