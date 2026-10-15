@@ -283,3 +283,12 @@ html:not(.dark) .catalog-search-wrap:focus-within .catalog-search-input{box-shad
 
 .social-footer-link{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:1px solid rgba(251,146,60,.28);border-radius:14px;background:rgba(251,146,60,.08);color:#fdba74;transition:background .2s ease,border-color .2s ease,color .2s ease,transform .2s ease}
 .social-footer-link:hover{background:#fdba74;border-color:#fdba74;color:#18181b;transform:translateY(-2px)}
+
+/* Official platform colors for each footer social icon */
+.social-footer-link{background:rgba(255,255,255,.04);transition:transform .2s ease,background .2s ease,border-color .2s ease}
+.social-footer-link[title="Telegram"]{color:#229ED9;border-color:rgba(34,158,217,.42);background:rgba(34,158,217,.10)}
+.social-footer-link[title="ВКонтакте"]{color:#0077FF;border-color:rgba(0,119,255,.38);background:rgba(0,119,255,.10)}
+.social-footer-link[title="Instagram"]{color:#E4405F;border-color:rgba(228,64,95,.4);background:linear-gradient(135deg,rgba(131,58,180,.13),rgba(228,64,95,.13),rgba(252,176,69,.13))}
+.social-footer-link[title="Telegram"]:hover{color:#fff;background:#229ED9;border-color:#229ED9;transform:translateY(-2px)}
+.social-footer-link[title="ВКонтакте"]:hover{color:#fff;background:#0077FF;border-color:#0077FF;transform:translateY(-2px)}
+.social-footer-link[title="Instagram"]:hover{color:#fff;background:linear-gradient(135deg,#833AB4,#E4405F,#FCB045);border-color:#E4405F;transform:translateY(-2px)}
