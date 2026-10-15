@@ -1,1 +1,1 @@
-export default { content: ['./index.html','./src/**/*.{js,ts,jsx,tsx}'], theme: { extend: { colors: { ink: '#09090b', panel: '#13151b', electric: '#47d7ff' }, boxShadow: { glow: '0 0 40px rgba(71,215,255,.12)' } } }, plugins: [] };
+export default { darkMode: 'class', content: ['./index.html','./src/**/*.{js,ts,jsx,tsx}'], theme: { extend: { colors: { ink: '#09090b', panel: '#13151b', electric: '#47d7ff' }, boxShadow: { glow: '0 0 40px rgba(71,215,255,.12)' } } }, plugins: [] };
